@@ -1,0 +1,210 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-image: url("../images/indexbanner-bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.menu {
+	background-color: white;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 10px;
+}
+
+#searchbar {
+	background-color: white;
+	box-shadow: 0 gray;
+	border: 0 0 3px none;
+}
+
+#seccion2 {
+	background-color: white;
+}
+
+.tituloinfo {
+	color: black;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.tituloblanco {
+	color: gray;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.subtitblanco {
+	color: gray;
+	font-size: 13px;
+	font-weight:300;
+	text-align: left;
+}
+
+.textobase {
+	color: gray;
+	font-size: 10px;
+	font-weight: 300;
+	text-align: center;
+}
+
+#seccion3 {
+	background-color: white;
+}
+
+.textobase2 {
+	color: gray;
+	font-size: 10px;
+	font-weight: 300;
+	text-align: right;
+}
+
+.textobase3 {
+	color: gray;
+	font-size: 10px;
+	font-weight: 300;
+	text-align: left;
+}
+
+.titulo {
+	color: black;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.subtitulo {
+	color: gray;
+	font-size: 13px;
+	font-weight:300;
+	text-align: center;
+}
+
+#seccion4 {
+	background-image: url("../images/pricing-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.precio {
+	color:#000;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.grande {
+	font-size: 30px;
+}
+
+.num {
+	font-size: 10px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.azul{
+	color: #00d4fc;
+	}
+
+.am {
+	color: #f7df09;
+}
+
+.ana {
+	color: #ff914f;
+	}
+
+.red {
+	color: #fa5537;
+}
+
+.botonpaquetes{
+	background-color: #00aef3;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	font-size: 10px;
+	font-family: 'Open Sans';
+	border:none;
+}
+
+.tituloinfoder {
+	color: black;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.tituloinfoizq {
+	color: black;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: left;
+}
+
+footer {
+	background-color: #142e3f;
+}
+
+.footermenor {
+	background-color: #091722;
+}
+
+.titulofooter {
+	color: white;
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+}
+
+#costumers {
+	color: #00adf8;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+footer nav ul {
+	list-style: none;
+}
+
+footer nav ul li a{	
+	text-decoration: none;
+	color: white;
+	font-weight: 300;
+	font-size: 10px;
+}
+
+footer article h6{	
+	color: white;
+	font-weight: 300;
+	font-size: 10px;
+}
+
+.botonsearch{
+	background-color: #00aef3;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	font-size: 10px;
+	font-family: 'Open Sans';
+	border:none;
+}

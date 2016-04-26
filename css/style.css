@@ -158,6 +158,14 @@ form{
 	line-height: 16px;
 }
 
+.iconos:hover{
+	transform: scale(1.25);
+}
+
+.iconos:hover{
+	transition: 1.3s ease-in-out;
+}
+
 #seccion3 {
 	background-color: white;
     height: 85%;

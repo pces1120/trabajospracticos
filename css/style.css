@@ -479,10 +479,6 @@ footer article{
 	margin: auto;
 }
 
-.formcontacto{
-	overflow: auto;
-}
-
 .formcontacto input {
 	border-radius: 3px;
 	border: 1px solid rgba(0,0,0,0.1);
@@ -519,5 +515,575 @@ footer article{
 }
 
 
+@media screen and (max-width: 992px) and (min-width: 769px){
+	.menu {
+    height: 100%;
+    width: 70%;
+    margin:0;
+	}
+
+	.menu ul {
+		width: 20%;
+	}
+
+	.menu img{
+		width: 20%;
+	}
+	
+	.textointro{
+    width: 90%;
+	}
+
+	.tituloblanco {
+	margin-top: 25%;
+	}
+
+	.subtitblanco {
+	    font-size: 15px;
+	    margin-top: 2%;
+	    width: 50%;
+	}
+
+	aside{
+		text-align: center;
+		height: 32%;
+	    width: 100%;
+	    margin: auto;
+		margin-top:22%;
+	}
+
+	form{
+		height: inherit;
+	}
+
+	#seccion2 {
+	height: 80%;
+	}
+
+	#seccion2 div{
+		height: 100%;
+		width: 75%;
+	}
+
+	#seccion2 article{
+		width: 40%;
+		float: none;
+	    margin: 10% 2% 0 2%;
+	}
+
+	#seccion3 {
+	    height: 100%;
+	}
+
+	#seccion3 div{
+    width: 90%;
+	}
+
+	.contenedor {
+		display: inline-block;
+		width:30%;
+		float: left;
+	}
+
+	.contenedor article{
+		display: inline;
+		margin-top: 15%;
+	}
+
+	#seccion4 {
+	background-size: auto 25%;
+    height: 150%;
+	}
+
+	#seccion4 .cabezaseccion{
+		padding-top: 12%;
+	}
+
+	#seccion4 div{
+		width: 100%;
+		height: 50%;
+	}
+
+	.rectangulos {
+		width: 40%;
+	    height: 70%;
+	    margin-top: 3%;
+	}
+
+	.rectangulos h1 {
+		margin-top:15%;
+	}
+
+	.rectangulos table tr td {
+		padding: 8% 7% 0 0;
+	}
+
+	.precio {
+		margin-bottom: 10%;
+	}
+
+	.botonpaquetes{
+		padding: 10px 140px;
+	    margin-top: 10%;
+	}
+	
+	footer {
+	height: 40%;
+	position: relative;
+	top:20%;
+	}
+
+	footer article{
+		width:100%;
+	}
+
+	.titulofooter {
+		padding-top: 10%;
+	}
+
+	.footermenor {
+		height: 40%;
+		display: block;
+	}
+
+	.footermenor h6{
+		float: none;
+		margin-left: 0;
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+
+	.footermenor nav {
+		margin-right: 0%;
+		margin-top: 2%
+	}
+
+
+	.ion-chevron-up {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 501px){
+	header{
+	height: 20%;
+	}
+
+	.menu {
+    height: 100%;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+	}
+
+	.menu ul {
+    float:none;
+    width: 100%;
+	}
+
+	.menu ul li {
+		display: block;
+	    margin: 20px 0;
+	}
+
+	.menu ul li a{
+		font-size: 12px;
+	}
+	
+	.menu img{
+		width: 100%;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	
+	#seccion1 {
+	background-image: none;
+	height: 10%; 
+	}
+
+	.textointro{
+	    display: none;
+	}
+
+	
+	aside{
+		height: 100%;
+	    width: 90%;
+	    margin: auto;
+		margin-top:0;
+	}
+
+	#seccion2 {
+	height: 75%;
+	}
+
+	#seccion2 div{
+		height: 100%;
+		width: 75%;
+	}
+
+	#seccion2 article{
+		width: 40%;
+		float: none;
+	    margin: 10% 2% 0 2%;
+	}
+
+	#seccion3 {
+	    height: 190%;
+	}
+
+	#seccion3 div{
+    width: 70%;
+    height: 90%;
+	}
+
+	.contenedor {
+		display: inline-block;
+		width:100%;
+		float: none;
+	}
+
+	.derecha {
+		text-align: left;
+	}
+
+	.derecha article{
+		float: left;
+		margin-top: 10px;
+	}
+
+	.derecha article img{
+		float: left;
+		width: 10%;
+	}
+
+	.derecha article h1{
+		margin-left: 5%;
+		margin-top:5%;
+	}
+
+	.derecha article p{
+		margin-left: 15%;
+		margin-top: 2%;
+	}
+
+	.izquierda article{
+		margin-top:10px;
+	}
+	
+	.izquierda article img{
+		width: 10%;
+	}
+
+	.izquierda article h1{
+		margin-top: 5%;
+	}
+
+	.izquierda article p{
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+
+	.medio {
+		margin:auto;
+		text-align: center;
+	}
+
+	.medio img{
+		width: 50%;
+	}
+
+	#seccion4 {
+	background-size: auto 20%;
+    height: 150%;
+	}
+
+	#seccion4 .cabezaseccion{
+		padding-top: 12%;
+	}
+
+	#seccion4 div{
+		width: 100%;
+		height: 45%;
+	}
+
+	.rectangulos {
+		width: 40%;
+	    height: 70%;
+	    margin-top: 3%;
+	}
+
+	.rectangulos h1 {
+		margin-top:15%;
+	}
+
+	.rectangulos table tr td {
+		padding: 8% 7% 0 0;
+	}
+
+	.precio {
+		margin-bottom: 10%;
+	}
+
+	.botonpaquetes{
+		padding: 15px 115px;
+	    margin-top: 10%;
+	}
+	
+	footer {
+	height: 40%;
+	position: relative;
+	top:20%;
+	}
+
+	footer article{
+		width:100%;
+	}
+
+	.titulofooter {
+		padding-top: 10%;
+	}
+
+	.footermenor {
+		height: 40%;
+		display: block;
+	}
+
+	.footermenor h6{
+		float: none;
+		margin-left: 0;
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+
+	.footermenor nav {
+		margin-right: 0%;
+		margin-top: 2%
+	}
+
+
+	.ion-chevron-up {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	
+	header{
+	height: 20%;
+	}
+
+	.menu {
+    height: 100%;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+	}
+
+	.menu ul {
+    float:none;
+    width: 100%;
+	}
+
+	.menu ul li {
+		display: block;
+	    margin: 20px 0;
+	}
+
+	.menu ul li a{
+		font-size: 12px;
+	}
+	
+	.menu img{
+		width: 100%;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	
+	#seccion1 {
+	background-image: none;
+	height: 10%; 
+	}
+
+	.textointro{
+	    display: none;
+	}
+
+	
+	aside{
+		height: 100%;
+	    width: 90%;
+	    margin: auto;
+		margin-top:0;
+	}
+
+	#seccion2 {
+	height: 130%;
+	}
+
+	#seccion2 div{
+		height: 100%;
+		width: 75%;
+	}
+
+	#seccion2 article{
+		width: 100%;
+		float: none;
+	    margin: 10% 0 0 0;
+	}
+
+	#seccion2 article h1 {
+    	margin-top: 8%;
+	}
+
+	#seccion2 article p {
+    	margin-top: 5%;
+	}
+
+	#seccion3 {
+	    height: 170%;
+	}
+
+	#seccion3 div{
+	    width: 90%;
+	    height: 90%;
+	}
+
+	.contenedor {
+		display: inline-block;
+		width:100%;
+		float: none;
+	}
+
+	.derecha {
+		text-align: left;
+	}
+
+	.derecha article{
+		float: left;
+		margin-top: 10px;
+	}
+
+	.derecha article img{
+		float: left;
+		width: 10%;
+	}
+
+	.derecha article h1{
+		margin-left: 5%;
+		margin-top:5%;
+	}
+
+	.derecha article p{
+		margin-left: 15%;
+		margin-top: 2%;
+	}
+
+	.izquierda article{
+		margin-top:10px;
+	}
+	
+	.izquierda article img{
+		width: 10%;
+	}
+
+	.izquierda article h1{
+		margin-top: 5%;
+	}
+
+	.izquierda article p{
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+
+	.medio {
+		margin:auto;
+		text-align: center;
+	}
+
+	.medio img{
+		width: 50%;
+	}
+
+	#seccion4 {
+	background-size: auto 25%;
+    height: 100%;
+	}
+
+	#seccion4 .cabezaseccion{
+		padding-top: 12%;
+	}
+
+	#seccion4 div{
+		width: 100%;
+		height: 60%;
+	}
+
+	.rectangulos {
+		width: 40%;
+	    height: 70%;
+	    margin-top: 3%;
+	}
+
+	.rectangulos h1 {
+		margin-top:15%;
+	}
+
+	.rectangulos table tr td {
+		padding: 8% 7% 0 0;
+	}
+
+	.precio {
+		margin-bottom: 10%;
+	}
+
+	.botonpaquetes{
+		padding: 15px 60px;
+	    margin-top: 10%;
+	}
+	
+	footer {
+		height: 40%;
+		position: relative;
+		top:20%;
+	}
+
+	footer article{
+		width:100%;
+	}
+
+	.titulofooter {
+		padding-top: 15%;
+	}
+
+	.footermenor {
+		height: 40%;
+		display: block;
+	}
+
+	.footermenor h6{
+		float: none;
+		margin-left: 0;
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+
+	.footermenor nav {
+		margin-right: 0%;
+		margin-top: 2%
+	}
+
+
+	.ion-chevron-up {
+		display: none;
+	}
+
+
+}
 
 

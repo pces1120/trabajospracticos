@@ -1,1089 +1,762 @@
-html, body {
-	height: 100%;
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-}
+  line-height: 1; }
 
-header{
-	height: 10%;
-}
+ol, ul {
+  list-style: none; }
 
-.menu {
-	background-color: white;
-    height: 100%;
-    width: 70%;
-    margin: auto;
-}
+blockquote, q {
+  quotes: none; }
 
-.menu ul {
-	list-style: none;
-	display: inline-block;
-    text-align: center;
-    float:right;
-    width: 15%;
-    margin-top: 3%;
-}
-
-.menu ul li {
-	display: inline;
-    margin: 0 5%;
-}
-
-.menu ul li a{
-	text-decoration: none;
-	color: black;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 10px;
-}
-
-.menu img{
-	width: 15%;
-    padding-top: 2.5%;
-}
-
-#seccion1 {
-	background-image: url("../images/indexbanner-bg3.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 75%; 
-}
-
-.textointro{
-    width: 55%;
-    margin: auto;
-}
-
-.tituloblanco {
-	color: white;
-	font-size: 30px;
-	font-weight: 700;
-	text-align: left;
-	display: inline-block;
-	margin-top: 30%;
-}
-
-.subtitblanco {
-    color: white;
-    font-size: 13px;
-    font-weight: 300;
-    text-align: left;
-    margin-top: 4%;
-    width: 50%;
-    line-height: 26px;
-}
-
-aside{
-	text-align: center;
-	height: 32%;
-    width: 75%;
-    margin: auto;
-	margin-top:16%;
-}
-
-form{
-	height: inherit;
-}
-
-.botonsearch{
-	background-color: #00aef3;
-	text-transform: uppercase;
-	color: white;
-	font-weight: 400;
-	font-size: 10px;
-	font-family: 'Open Sans';
-	border:none;
-    height: 104%;
-    padding: 0 4%;
-}
-
-.searchbar {
-	display: inline-block;
-    width: 75%;
-    height: 100%;
-    text-align: left;
-    padding-left: 3%;
-    border:none;
-    margin-right: -5px;
-    box-shadow: 0 0 0 1px rgba(0,0,0,0.1)
-}
-
-#seccion2 {
-	background-color: white;
-	height: 45%;
-}
-
-#seccion2 div{
-	height: 100%;
-	width: 75%;
-	margin: auto;
-}
-
-#seccion2 article{
-	display: inline-block;
-	width: 20%;
-	text-align: center;
-	float: left;
-    margin: 10% 2.5% 0 2.5%;
-}
-
-#seccion2 article img{
-	display: inline-block;
-	width: 30%;
-	height: 30%;
-}
-
-#seccion2 article h1{
-	margin-top: 12%;
-}
-
-#seccion2 article p{
-	margin-top: 12%;
-}
-
-.tituloinfo {
-	color: black;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: 700;
-}
-
-.textobase {
-	color: gray;
-	font-size: 10px;
-	font-weight: 300;
-	line-height: 16px;
-}
-
-.iconos:hover{
-	transform: scale(1.25);
-}
-
-.iconos:hover{
-	transition: 1.3s ease-in-out;
-}
-
-#seccion3 {
-	background-color: white;
-    height: 85%;
-    z-index: 1;
-}
-
-.cabezaseccion {
-	text-align: center;
-	width: 75%;
-	margin: auto;
-}
-
-.titulo {
-	color: black;
-	font-size: 30px;
-	font-weight: 700;
-	margin-top: 4%;
-}
-
-.subtitulo {
-	color: gray;
-	font-size: 13px;
-	font-weight:300;
-	margin-top: 4%;
-}
-
-#seccion3 div{
-    width: 60%;
-   	margin:auto;
-}
-
-div .contenedor {
-	margin-top: 10%;
-}
-
-.contenedor {
-	display: inline-block;
-	width:30%;
-	float: left;
-}
-
-.contenedor article{
-	display: inline;
-	margin-top: 15%;
-}
-
-.derecha {
-	text-align: right;
-}
-
-.derecha article{
-	float: right;
-}
-
-.derecha article img{
-	float: right;
-	width: 15%;
-}
-
-.derecha article h1{
-	display: inline-block;
-	margin-right: 5%;
-	margin-top: 6%;
-}
-
-.derecha article p{
-	display: inline-block;
-	margin-right: 20%;
-	margin-top: 5%;
-}
-
-.izquierda article{
-	float: left;
-}
-
-.izquierda article img{
-	float: left;
-	width: 15%;
-}
-
-.izquierda article h1{
-	display: inline-block;
-	margin-left: 5%;
-	margin-top: 6%;
-}
-
-.izquierda article p{
-	display: inline-block;
-	margin-left: 20%;
-	margin-top: 5%;
-}
-
-.medio {
-	margin:8% 5% 0 5%;
-}
-
-.medio img{
-	width: 100%;
-}
-
-#seccion4 {
-	background-image: url("../images/pricing-bg.jpg");
-	background-repeat: no-repeat;
-	background-size: auto 50%;
-    background-position: top;
-    height: 100%;
-}
-
-#seccion4 .cabezaseccion{
-	padding-top: 10%;
-}
-
-#seccion4 div{
-	width: 60%;
-	height: 47%;
-	margin: auto;
-	text-align: center;	
-    margin-top: 5%;
-}
-
-.rectangulos {
-	background-color: white;
-	display: inline-block;
-	width: 22%;
-    margin: 0 1%;
-    height: 100%;
-    text-align: center;
-    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
-}
-
-.rectangulos h1 {
-	margin-top:40%;
-	margin-bottom: 10%;
-}
-
-.rectangulos table tr td {
-	padding: 10% 7% 0 0;
-}
-
-.rectangulos table tr .textobase {
-	text-align: left;
-}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: auto;
-    border-top: 0.5px solid rgba(0,0,0,0.1);
-    width: 60%;
-}
+  border-collapse: collapse;
+  border-spacing: 0; }
 
-.precio {
-	color:#000;
-	font-size: 15px;
-	font-weight: 700;
-	margin-bottom: 20%;
-	vertical-align: -10px;
-}
+html, body {
+  height: 100%; }
 
-.grande {
-	font-size: 30px;
-}
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.tituloinfo {
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700; }
+
+.textobase {
+  color: gray;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 16px; }
 
 .num {
-	font-size: 10px;
-	font-weight: 400;
-	text-align: center;
-}
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center; }
 
-.azul{
-	color: #00d4fc;
-	}
+.azul {
+  color: #00d4fc; }
 
 .am {
-	color: #f7df09;
-}
+  color: #f7df09; }
 
 .ana {
-	color: #ff914f;
-	}
+  color: #ff914f; }
 
 .red {
-	color: #fa5537;
-}
+  color: #fa5537; }
 
-.botonpaquetes{
-	background-color: #00aef3;
-	text-transform: uppercase;
-	color: white;
-	font-weight: 400;
-	font-size: 10px;
-	font-family: 'Open Sans';
-	border:none;
-	padding: 5px 30px;
-    border-radius: 2px;
-    margin-top: 15%;
-}
+header {
+  height: 10%; }
+  header .menu {
+    background-color: white;
+    height: 100%;
+    width: 70%;
+    margin: auto; }
+    header .menu img {
+      width: 15%;
+      margin-top: 2.5%; }
+    header .menu ul {
+      list-style: none;
+      display: inline-block;
+      text-align: center;
+      float: right;
+      width: 15%;
+      margin-top: 3%; }
+      header .menu ul li {
+        display: inline;
+        margin: 0 5%; }
+        header .menu ul li a {
+          text-decoration: none;
+          color: black;
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 10px; }
+
+#seccion1 {
+  background-image: url("../images/indexbanner-bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 75%; }
+  #seccion1 .textointro {
+    width: 55%;
+    margin: auto; }
+    #seccion1 .textointro .tituloblanco {
+      color: white;
+      font-size: 30px;
+      font-weight: 700;
+      text-align: left;
+      display: inline-block;
+      margin-top: 30%; }
+    #seccion1 .textointro .subtitblanco {
+      color: white;
+      font-size: 13px;
+      font-weight: 300;
+      text-align: left;
+      margin-top: 4%;
+      width: 50%;
+      line-height: 26px; }
+  #seccion1 aside {
+    text-align: center;
+    height: 32%;
+    width: 75%;
+    margin: auto;
+    margin-top: 16%; }
+    #seccion1 aside form {
+      height: inherit; }
+      #seccion1 aside form .botonsearch {
+        background-color: #00aef3;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 400;
+        font-size: 10px;
+        font-family: 'Open Sans';
+        border: none;
+        height: 104%;
+        padding: 0 4%; }
+      #seccion1 aside form .searchbar {
+        display: inline-block;
+        width: 75%;
+        height: 100%;
+        text-align: left;
+        padding-left: 3%;
+        border: none;
+        margin-right: -5px;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1); }
+
+#seccion2 {
+  height: 45%; }
+  #seccion2 div {
+    height: 100%;
+    width: 75%;
+    margin: auto; }
+    #seccion2 div article {
+      display: inline-block;
+      width: 20%;
+      text-align: center;
+      float: left;
+      margin: 10% 2.5% 0 2.5%; }
+      #seccion2 div article img {
+        display: inline-block;
+        width: 30%;
+        height: 30%; }
+      #seccion2 div article h1 {
+        margin-top: 12%; }
+      #seccion2 div article p {
+        margin-top: 12%; }
+
+.cabezaseccion {
+  text-align: center;
+  width: 75%;
+  margin: auto; }
+
+.titulo {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 4%; }
+
+.subtitulo {
+  color: gray;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 4%; }
+
+#seccion3 {
+  height: 85%;
+  z-index: 1; }
+  #seccion3 div {
+    width: 60%;
+    margin: auto; }
+    #seccion3 div .contenedor {
+      margin-top: 10%;
+      display: inline-block;
+      width: 30%;
+      float: left; }
+      #seccion3 div .contenedor article {
+        display: inline;
+        margin-top: 15%; }
+    #seccion3 div .derecha {
+      text-align: right; }
+      #seccion3 div .derecha article {
+        float: right; }
+        #seccion3 div .derecha article img {
+          float: right;
+          width: 15%; }
+        #seccion3 div .derecha article h1 {
+          display: inline-block;
+          margin-right: 5%;
+          margin-top: 6%; }
+        #seccion3 div .derecha article p {
+          display: inline-block;
+          margin-right: 20%;
+          margin-top: 5%; }
+    #seccion3 div .izquierda article {
+      float: left; }
+      #seccion3 div .izquierda article img {
+        float: left;
+        width: 15%; }
+      #seccion3 div .izquierda article h1 {
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: 6%; }
+      #seccion3 div .izquierda article p {
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 5%; }
+    #seccion3 div .medio {
+      margin: 8% 5% 0 5%; }
+      #seccion3 div .medio img {
+        width: 100%; }
+
+#seccion4 {
+  background-image: url("../images/pricing-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  background-position: top;
+  height: 100%; }
+  #seccion4 .cabezaseccion {
+    padding-top: 10%; }
+  #seccion4 div {
+    width: 60%;
+    height: 47%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%; }
+    #seccion4 div .rectangulos {
+      background-color: white;
+      display: inline-block;
+      width: 22%;
+      margin: 0 1%;
+      height: 100%;
+      text-align: center;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1); }
+      #seccion4 div .rectangulos .tituloinfo {
+        margin-top: 40%;
+        margin-bottom: 10%; }
+      #seccion4 div .rectangulos .precio {
+        color: #000;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 20%;
+        vertical-align: -10px; }
+        #seccion4 div .rectangulos .precio .grande {
+          font-size: 30px; }
+      #seccion4 div .rectangulos table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: auto;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+        width: 60%; }
+        #seccion4 div .rectangulos table tr .textobase {
+          text-align: left; }
+        #seccion4 div .rectangulos table tr td {
+          padding: 10% 7% 0 0; }
+      #seccion4 div .rectangulos .botonpaquetes {
+        background-color: #00aef3;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 400;
+        font-size: 10px;
+        font-family: 'Open Sans';
+        border: none;
+        padding: 5px 30px;
+        border-radius: 2px;
+        margin-top: 15%; }
 
 footer {
-	background-color: #142e3f;
-	text-align: center;
-	height: 40%;
-}
-
-footer article{
-	width:50%;
-	height: 75%;
-	margin: auto;
-}
-
-.titulofooter {
-	color: white;
-	font-size: 25px;
-	font-weight: 300;
-	text-align: center;
-	padding-top: 15%;
-}
+  background-color: #142e3f;
+  text-align: center;
+  height: 40%; }
+  footer article {
+    width: 50%;
+    height: 75%;
+    margin: auto; }
+    footer article .titulofooter {
+      color: white;
+      font-size: 25px;
+      font-weight: 300;
+      text-align: center;
+      padding-top: 15%; }
+      footer article .titulofooter #costumers {
+        color: #00adf8;
+        font-size: 25px;
+        font-weight: 700; }
 
 .footermenor {
-	background-color: #091722;
-	height: 25%;
-	width: 100%;
-	display: flex;
-	align-items: center;
-    justify-content: space-between;
-}
+  background-color: #091722;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .footermenor h6 {
+    float: left;
+    margin-left: 20%;
+    color: white;
+    font-weight: 300;
+    font-size: 10px; }
+  .footermenor nav {
+    margin-right: 20%; }
+    .footermenor nav ul {
+      list-style: none; }
+      .footermenor nav ul li {
+        display: inline; }
+        .footermenor nav ul li a {
+          text-decoration: none;
+          color: white;
+          font-weight: 300;
+          font-size: 10px;
+          margin: 0 10px; }
+        .footermenor nav ul li .ion-chevron-up {
+          color: white;
+          font-size: 12px; }
 
-.footermenor h6{
-	float: left;
-	margin-left: 20%;
-	color: white;
-	font-weight: 300;
-	font-size: 10px;
-}
+#seccioncontacto1 {
+  background-image: url("../images/indexbanner-bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50%; }
+  #seccioncontacto1 article {
+    width: 40%;
+    margin: auto;
+    text-align: center; }
+    #seccioncontacto1 article h1 {
+      padding-top: 25%; }
+    #seccioncontacto1 article .wht {
+      color: white;
+      line-height: 20px; }
 
-#costumers {
-	color: #00adf8;
-	font-size: 25px;
-	font-weight: 700;
-}
+#seccioncontacto2 {
+  height: 65%;
+  background-color: white; }
+  #seccioncontacto2 article {
+    height: 20%;
+    width: 40%;
+    margin: auto;
+    text-align: center; }
+    #seccioncontacto2 article h1 {
+      margin-top: 20%; }
+  #seccioncontacto2 div {
+    width: 70%;
+    height: 50%;
+    margin: auto; }
+    #seccioncontacto2 div form {
+      height: 70%; }
+      #seccioncontacto2 div form div {
+        height: 100%;
+        width: 45%;
+        margin: 0 2%;
+        display: inline-block; }
+        #seccioncontacto2 div form div input {
+          border-radius: 3px;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          display: inline-block;
+          width: 100%;
+          height: 25%;
+          padding-left: 5%;
+          margin-top: 2%; }
+        #seccioncontacto2 div form div textarea {
+          width: 100%;
+          height: 90%;
+          display: inline-block;
+          position: relative;
+          top: 12%;
+          margin: 0 0 0 0;
+          border-radius: 3px;
+          border: 1px solid rgba(0, 0, 0, 0.1); }
+      #seccioncontacto2 div form .submit {
+        display: block;
+        background-color: #00aef3;
+        text-transform: uppercase;
+        padding: 10px 60px;
+        font-weight: 400;
+        font-size: 10px;
+        font-family: 'Open Sans';
+        color: white;
+        position: relative;
+        top: 10%;
+        margin: auto;
+        border: none;
+        border-radius: 3px; }
 
-.footermenor nav {
-	margin-right: 20%;
-}
-
-.footermenor nav ul {
-	list-style: none;
-}
-
-.footermenor nav ul li{
-	display: inline;
-}
-
-.footermenor nav ul li a{	
-	text-decoration: none;
-	color: white;
-	font-weight: 300;
-	font-size: 10px;
-	margin: 0 10px;
-}
-
-.ion-chevron-up {
-	color: white;
-	font-size: 12px;
-}
-
-/*estilo para página de contacto*/
-
-#seccioncontacto1{
-	background-image: url("../images/indexbanner-bg2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 50%;
-}
-
-#seccioncontacto1 article{
-	width: 40%;
-	margin: auto;
-	text-align: center;
-}
-
-#seccioncontacto1 article h1{
-	padding-top: 25%;
-}
-
-.wht{
-	color: white;
-	line-height: 20px;
-}
-
-#seccioncontacto2{
-	height: 65%;
-	background-color: white;
-}
-
-#seccioncontacto2 article{
-	height: 20%;
-	width: 40%;
-	margin: auto;
-	text-align: center
-}
-
-#seccioncontacto2 article h1{
-	margin-top: 20%;
-}
-
-#seccioncontacto2 div{
-	width: 70%;
-	height: 80%;
-	margin: auto;
-}
-
-.formcontacto input {
-	border-radius: 3px;
-	border: 1px solid rgba(0,0,0,0.1);
-	display: inline-block;
-	margin-right: 3%;
-	width: 42%;
-	height: 15%;
-	padding-left: 5%;
-	margin-top: 2%;
-}
-
-.formcontacto .text{
-	float: left;
-}
-
-.formcontacto .message{
-	height: 60%;
-    display: inline-block;
-    margin: 2% 0 0 0;
-}
-
-.formcontacto .submit{
-	display: block;
-	background-color:#00aef3; 
-	width: 15%;
-	text-transform: uppercase;
-	padding: 0;
-	font-weight: 400;
-	font-size: 10px;
-	font-family: 'Open Sans';
-	color: white;
-	position: relative;
-	margin-left: 42%;
-}
-
-
-@media screen and (max-width: 992px) and (min-width: 769px){
-	.menu {
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  header .menu {
     height: 100%;
     width: 70%;
-    margin:0;
-	}
+    margin: 0; }
+    header .menu img {
+      width: 20%; }
+    header .menu ul {
+      width: 20%; }
 
-	.menu ul {
-		width: 20%;
-	}
-
-	.menu img{
-		width: 20%;
-	}
-	
-	.textointro{
-    width: 90%;
-	}
-
-	.tituloblanco {
-	margin-top: 25%;
-	}
-
-	.subtitblanco {
-	    font-size: 15px;
-	    margin-top: 2%;
-	    width: 50%;
-	}
-
-	aside{
-		text-align: center;
-		height: 32%;
-	    width: 100%;
-	    margin: auto;
-		margin-top:22%;
-	}
-
-	form{
-		height: inherit;
-	}
-
-	#seccion2 {
-	height: 80%;
-	}
-
-	#seccion2 div{
-		height: 100%;
-		width: 75%;
-	}
-
-	#seccion2 article{
-		width: 40%;
-		float: none;
-	    margin: 10% 2% 0 2%;
-	}
-
-	#seccion3 {
-	    height: 100%;
-	}
-
-	#seccion3 div{
-    width: 90%;
-	}
-
-	.contenedor {
-		display: inline-block;
-		width:30%;
-		float: left;
-	}
-
-	.contenedor article{
-		display: inline;
-		margin-top: 15%;
-	}
-
-	#seccion4 {
-	background-size: auto 25%;
-    height: 150%;
-	}
-
-	#seccion4 .cabezaseccion{
-		padding-top: 12%;
-	}
-
-	#seccion4 div{
-		width: 100%;
-		height: 50%;
-	}
-
-	.rectangulos {
-		width: 40%;
-	    height: 70%;
-	    margin-top: 3%;
-	}
-
-	.rectangulos h1 {
-		margin-top:15%;
-	}
-
-	.rectangulos table tr td {
-		padding: 8% 7% 0 0;
-	}
-
-	.precio {
-		margin-bottom: 10%;
-	}
-
-	.botonpaquetes{
-		padding: 10px 140px;
-	    margin-top: 10%;
-	}
-	
-	footer {
-	height: 40%;
-	position: relative;
-	top:20%;
-	}
-
-	footer article{
-		width:100%;
-	}
-
-	.titulofooter {
-		padding-top: 10%;
-	}
-
-	.footermenor {
-		height: 40%;
-		display: block;
-	}
-
-	.footermenor h6{
-		float: none;
-		margin-left: 0;
-		display: inline-block;
-		margin-top: 30px;
-	}
-
-
-	.footermenor nav {
-		margin-right: 0%;
-		margin-top: 2%
-	}
-
-
-	.ion-chevron-up {
-		display: none;
-	}
-
-}
-
-@media screen and (max-width: 768px) and (min-width: 501px){
-	header{
-	height: 20%;
-	}
-
-	.menu {
-    height: 100%;
-    width: 20%;
-    margin: auto;
+  #seccion1 .textointro {
+    width: 90%; }
+    #seccion1 .textointro .tituloblanco {
+      margin-top: 25%; }
+    #seccion1 .textointro .subtitblanco {
+      font-size: 15px;
+      margin-top: 2%;
+      width: 50%; }
+  #seccion1 aside {
     text-align: center;
-	}
-
-	.menu ul {
-    float:none;
+    height: 32%;
     width: 100%;
-	}
-
-	.menu ul li {
-		display: block;
-	    margin: 20px 0;
-	}
-
-	.menu ul li a{
-		font-size: 12px;
-	}
-	
-	.menu img{
-		width: 100%;
-		display: inline-block;
-		margin-top: 10px;
-	}
-	
-	#seccion1 {
-	background-image: none;
-	height: 10%; 
-	}
-
-	.textointro{
-	    display: none;
-	}
-
-	
-	aside{
-		height: 100%;
-	    width: 90%;
-	    margin: auto;
-		margin-top:0;
-	}
-
-	#seccion2 {
-	height: 75%;
-	}
-
-	#seccion2 div{
-		height: 100%;
-		width: 75%;
-	}
-
-	#seccion2 article{
-		width: 40%;
-		float: none;
-	    margin: 10% 2% 0 2%;
-	}
-
-	#seccion3 {
-	    height: 190%;
-	}
-
-	#seccion3 div{
-    width: 70%;
-    height: 90%;
-	}
-
-	.contenedor {
-		display: inline-block;
-		width:100%;
-		float: none;
-	}
-
-	.derecha {
-		text-align: left;
-	}
-
-	.derecha article{
-		float: left;
-		margin-top: 10px;
-	}
-
-	.derecha article img{
-		float: left;
-		width: 10%;
-	}
-
-	.derecha article h1{
-		margin-left: 5%;
-		margin-top:5%;
-	}
-
-	.derecha article p{
-		margin-left: 15%;
-		margin-top: 2%;
-	}
-
-	.izquierda article{
-		margin-top:10px;
-	}
-	
-	.izquierda article img{
-		width: 10%;
-	}
-
-	.izquierda article h1{
-		margin-top: 5%;
-	}
-
-	.izquierda article p{
-		margin-left: 5%;
-		margin-top: 2%;
-	}
-
-	.medio {
-		margin:auto;
-		text-align: center;
-	}
-
-	.medio img{
-		width: 50%;
-	}
-
-	#seccion4 {
-	background-size: auto 20%;
-    height: 150%;
-	}
-
-	#seccion4 .cabezaseccion{
-		padding-top: 12%;
-	}
-
-	#seccion4 div{
-		width: 100%;
-		height: 45%;
-	}
-
-	.rectangulos {
-		width: 40%;
-	    height: 70%;
-	    margin-top: 3%;
-	}
-
-	.rectangulos h1 {
-		margin-top:15%;
-	}
-
-	.rectangulos table tr td {
-		padding: 8% 7% 0 0;
-	}
-
-	.precio {
-		margin-bottom: 10%;
-	}
-
-	.botonpaquetes{
-		padding: 15px 115px;
-	    margin-top: 10%;
-	}
-	
-	footer {
-	height: 40%;
-	position: relative;
-	top:20%;
-	}
-
-	footer article{
-		width:100%;
-	}
-
-	.titulofooter {
-		padding-top: 10%;
-	}
-
-	.footermenor {
-		height: 40%;
-		display: block;
-	}
-
-	.footermenor h6{
-		float: none;
-		margin-left: 0;
-		display: inline-block;
-		margin-top: 30px;
-	}
-
-
-	.footermenor nav {
-		margin-right: 0%;
-		margin-top: 2%
-	}
-
-
-	.ion-chevron-up {
-		display: none;
-	}
-
-}
-
-@media screen and (max-width: 500px){
-	
-	header{
-	height: 20%;
-	}
-
-	.menu {
-    height: 100%;
-    width: 20%;
     margin: auto;
-    text-align: center;
-	}
+    margin-top: 22%; }
+    #seccion1 aside form {
+      height: inherit; }
 
-	.menu ul {
-    float:none;
-    width: 100%;
-	}
+  #seccion2 {
+    height: 80%; }
+    #seccion2 div {
+      height: 100%;
+      width: 75%; }
+      #seccion2 div article {
+        width: 40%;
+        float: none;
+        margin: 10% 2% 0 2%; }
 
-	.menu ul li {
-		display: block;
-	    margin: 20px 0;
-	}
+  #seccion3 {
+    height: 100%; }
+    #seccion3 div {
+      width: 90%; }
+      #seccion3 div .contenedor {
+        display: inline-block;
+        width: 30%;
+        float: left; }
+        #seccion3 div .contenedor article {
+          display: inline;
+          margin-top: 15%; }
 
-	.menu ul li a{
-		font-size: 12px;
-	}
-	
-	.menu img{
-		width: 100%;
-		display: inline-block;
-		margin-top: 10px;
-	}
-	
-	#seccion1 {
-	background-image: none;
-	height: 10%; 
-	}
+  #seccion4 {
+    background-size: auto 25%;
+    height: 150%; }
+    #seccion4 .cabezaseccion {
+      padding-top: 12%; }
+    #seccion4 div {
+      width: 100%;
+      height: 50%; }
+      #seccion4 div .rectangulos {
+        width: 40%;
+        height: 70%;
+        margin-top: 3%; }
+        #seccion4 div .rectangulos .tituloinfo {
+          margin-top: 15%; }
+        #seccion4 div .rectangulos .precio {
+          margin-bottom: 10%; }
+        #seccion4 div .rectangulos table tr td {
+          padding: 8% 7% 0 0; }
+        #seccion4 div .rectangulos .botonpaquetes {
+          padding: 10px 140px;
+          margin-top: 10%; }
 
-	.textointro{
-	    display: none;
-	}
+  footer {
+    height: 40%;
+    position: relative;
+    top: 20%; }
+    footer article {
+      width: 100%; }
+      footer article .titulofooter {
+        padding-top: 10%; }
+    footer .footermenor {
+      height: 40%;
+      display: block; }
+      footer .footermenor h6 {
+        float: none;
+        margin-left: 0;
+        display: inline-block;
+        margin-top: 30px; }
+      footer .footermenor nav {
+        margin-right: 0%;
+        margin-top: 2%; }
+        footer .footermenor nav .ion-chevron-up {
+          display: none; } }
+@media screen and (max-width: 768px) and (min-width: 501px) {
+  header {
+    height: 20%; }
+    header .menu {
+      height: 100%;
+      width: 20%;
+      margin: auto;
+      text-align: center; }
+      header .menu img {
+        width: 100%;
+        display: inline-block;
+        margin-top: 10px; }
+      header .menu ul {
+        float: none;
+        width: 100%; }
+        header .menu ul li {
+          display: block;
+          margin: 20px 0; }
+          header .menu ul li a {
+            font-size: 12px; }
 
-	
-	aside{
-		height: 100%;
-	    width: 90%;
-	    margin: auto;
-		margin-top:0;
-	}
+  #seccion1 {
+    background-image: none;
+    height: 10%; }
+    #seccion1 .textointro {
+      display: none; }
+    #seccion1 aside {
+      height: 100%;
+      width: 90%;
+      margin: auto;
+      margin-top: 0; }
 
-	#seccion2 {
-	height: 130%;
-	}
+  #seccion2 {
+    height: 75%; }
+    #seccion2 div {
+      height: 100%;
+      width: 75%; }
+      #seccion2 div article {
+        width: 40%;
+        float: none;
+        margin: 10% 2% 0 2%; }
 
-	#seccion2 div{
-		height: 100%;
-		width: 75%;
-	}
+  #seccion3 {
+    height: 170%; }
+    #seccion3 div {
+      width: 70%;
+      height: 90%; }
+      #seccion3 div .contenedor {
+        display: inline-block;
+        width: 100%;
+        float: none; }
+      #seccion3 div .derecha {
+        text-align: left; }
+        #seccion3 div .derecha article {
+          float: left;
+          margin-top: 10px; }
+          #seccion3 div .derecha article img {
+            float: left;
+            width: 10%; }
+          #seccion3 div .derecha article h1 {
+            margin-left: 5%;
+            margin-top: 5%; }
+          #seccion3 div .derecha article p {
+            margin-left: 15%;
+            margin-top: 2%; }
+      #seccion3 div .izquierda article {
+        margin-top: 10px; }
+        #seccion3 div .izquierda article img {
+          width: 10%; }
+        #seccion3 div .izquierda article h1 {
+          margin-top: 5%; }
+        #seccion3 div .izquierda article p {
+          margin-left: 5%;
+          margin-top: 2%; }
+      #seccion3 div .medio {
+        margin: auto;
+        text-align: center; }
+        #seccion3 div .medio img {
+          width: 50%; }
 
-	#seccion2 article{
-		width: 100%;
-		float: none;
-	    margin: 10% 0 0 0;
-	}
+  #seccion4 {
+    background-size: auto 20%;
+    height: 150%; }
+    #seccion4 .cabezaseccion {
+      padding-top: 12%; }
+    #seccion4 div {
+      width: 100%;
+      height: 45%; }
+      #seccion4 div .rectangulos {
+        width: 40%;
+        height: 70%;
+        margin-top: 3%; }
+        #seccion4 div .rectangulos .tituloinfo {
+          margin-top: 15%; }
+        #seccion4 div .rectangulos .precio {
+          margin-bottom: 10%; }
+        #seccion4 div .rectangulos table tr td {
+          padding: 8% 7% 0 0; }
+        #seccion4 div .rectangulos .botonpaquetes {
+          padding: 10px 100px;
+          margin-top: 10%; }
 
-	#seccion2 article h1 {
-    	margin-top: 8%;
-	}
+  footer {
+    height: 40%;
+    position: relative;
+    top: 20%; }
+    footer article {
+      width: 100%; }
+      footer article .titulofooter {
+        padding-top: 10%; }
+    footer .footermenor {
+      height: 40%;
+      display: block; }
+      footer .footermenor h6 {
+        float: none;
+        margin-left: 0;
+        display: inline-block;
+        margin-top: 30px; }
+      footer .footermenor nav {
+        margin-right: 0%;
+        margin-top: 2%; }
+        footer .footermenor nav .ion-chevron-up {
+          display: none; } }
+@media screen and (max-width: 500px) {
+  header {
+    height: 20%; }
+    header .menu {
+      height: 100%;
+      width: 20%;
+      margin: auto;
+      text-align: center; }
+      header .menu img {
+        width: 100%;
+        display: inline-block;
+        margin-top: 10px; }
+      header .menu ul {
+        float: none;
+        width: 100%; }
+        header .menu ul li {
+          display: block;
+          margin: 20px 0; }
+          header .menu ul li a {
+            font-size: 12px; }
 
-	#seccion2 article p {
-    	margin-top: 5%;
-	}
+  #seccion1 {
+    background-image: none;
+    height: 10%; }
+    #seccion1 .textointro {
+      display: none; }
+    #seccion1 aside {
+      height: 100%;
+      width: 90%;
+      margin: auto;
+      margin-top: 0; }
 
-	#seccion3 {
-	    height: 170%;
-	}
+  #seccion2 {
+    height: 130%; }
+    #seccion2 div {
+      height: 100%;
+      width: 75%; }
+      #seccion2 div article {
+        width: 100%;
+        float: none;
+        margin: 10% 0% 0 0%; }
+        #seccion2 div article h1 {
+          margin-top: 8%; }
+        #seccion2 div article p {
+          margin-top: 5%; }
 
-	#seccion3 div{
-	    width: 90%;
-	    height: 90%;
-	}
+  #seccion3 {
+    height: 170%; }
+    #seccion3 div {
+      width: 90%;
+      height: 90%; }
+      #seccion3 div .contenedor {
+        display: inline-block;
+        width: 100%;
+        float: none; }
+      #seccion3 div .derecha {
+        text-align: left; }
+        #seccion3 div .derecha article {
+          float: left;
+          margin-top: 10px; }
+          #seccion3 div .derecha article img {
+            float: left;
+            width: 10%; }
+          #seccion3 div .derecha article h1 {
+            margin-left: 5%;
+            margin-top: 5%; }
+          #seccion3 div .derecha article p {
+            margin-left: 15%;
+            margin-top: 2%; }
+      #seccion3 div .izquierda article {
+        margin-top: 10px; }
+        #seccion3 div .izquierda article img {
+          width: 10%; }
+        #seccion3 div .izquierda article h1 {
+          margin-top: 5%; }
+        #seccion3 div .izquierda article p {
+          margin-left: 5%;
+          margin-top: 2%; }
+      #seccion3 div .medio {
+        margin: auto;
+        text-align: center; }
+        #seccion3 div .medio img {
+          width: 50%; }
 
-	.contenedor {
-		display: inline-block;
-		width:100%;
-		float: none;
-	}
+  #seccion4 {
+    background-size: auto 25%;
+    height: 100%; }
+    #seccion4 .cabezaseccion {
+      padding-top: 12%; }
+    #seccion4 div {
+      width: 100%;
+      height: 60%; }
+      #seccion4 div .rectangulos {
+        width: 40%;
+        height: 70%;
+        margin-top: 3%; }
+        #seccion4 div .rectangulos .tituloinfo {
+          margin-top: 15%; }
+        #seccion4 div .rectangulos .precio {
+          margin-bottom: 10%; }
+        #seccion4 div .rectangulos table tr td {
+          padding: 8% 7% 0 0; }
+        #seccion4 div .rectangulos .botonpaquetes {
+          padding: 10px 60px;
+          margin-top: 10%; }
 
-	.derecha {
-		text-align: left;
-	}
+  footer {
+    height: 40%;
+    position: relative;
+    top: 20%; }
+    footer article {
+      width: 100%; }
+      footer article .titulofooter {
+        padding-top: 15%; }
+    footer .footermenor {
+      height: 40%;
+      display: block; }
+      footer .footermenor h6 {
+        float: none;
+        margin-left: 0;
+        display: inline-block;
+        margin-top: 30px; }
+      footer .footermenor nav {
+        margin-right: 0%;
+        margin-top: 2%; }
+        footer .footermenor nav .ion-chevron-up {
+          display: none; } }
 
-	.derecha article{
-		float: left;
-		margin-top: 10px;
-	}
-
-	.derecha article img{
-		float: left;
-		width: 10%;
-	}
-
-	.derecha article h1{
-		margin-left: 5%;
-		margin-top:5%;
-	}
-
-	.derecha article p{
-		margin-left: 15%;
-		margin-top: 2%;
-	}
-
-	.izquierda article{
-		margin-top:10px;
-	}
-	
-	.izquierda article img{
-		width: 10%;
-	}
-
-	.izquierda article h1{
-		margin-top: 5%;
-	}
-
-	.izquierda article p{
-		margin-left: 5%;
-		margin-top: 2%;
-	}
-
-	.medio {
-		margin:auto;
-		text-align: center;
-	}
-
-	.medio img{
-		width: 50%;
-	}
-
-	#seccion4 {
-	background-size: auto 25%;
-    height: 100%;
-	}
-
-	#seccion4 .cabezaseccion{
-		padding-top: 12%;
-	}
-
-	#seccion4 div{
-		width: 100%;
-		height: 60%;
-	}
-
-	.rectangulos {
-		width: 40%;
-	    height: 70%;
-	    margin-top: 3%;
-	}
-
-	.rectangulos h1 {
-		margin-top:15%;
-	}
-
-	.rectangulos table tr td {
-		padding: 8% 7% 0 0;
-	}
-
-	.precio {
-		margin-bottom: 10%;
-	}
-
-	.botonpaquetes{
-		padding: 15px 60px;
-	    margin-top: 10%;
-	}
-	
-	footer {
-		height: 40%;
-		position: relative;
-		top:20%;
-	}
-
-	footer article{
-		width:100%;
-	}
-
-	.titulofooter {
-		padding-top: 15%;
-	}
-
-	.footermenor {
-		height: 40%;
-		display: block;
-	}
-
-	.footermenor h6{
-		float: none;
-		margin-left: 0;
-		display: inline-block;
-		margin-top: 30px;
-	}
-
-
-	.footermenor nav {
-		margin-right: 0%;
-		margin-top: 2%
-	}
-
-
-	.ion-chevron-up {
-		display: none;
-	}
-
-
-}
-
-
+/*# sourceMappingURL=style.css.map */

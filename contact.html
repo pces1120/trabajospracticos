@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contacto</title>
-	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800,600" type="text/css">
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -41,10 +40,14 @@
 		</article>
 		<div>
 			<form class="formcontacto" method="post" action="enviar.php">
-				<input type="text" required placeholder="Name" class="text">
-				<input type="text"required placeholder="Surname" class="text">
-				<input type="text" required placeholder="Subject" class="text">
-				<input type="text" required placeholder="Message" class="message">
+				<div>
+					<input type="text" required placeholder="Name">
+					<input type="text"required placeholder="Surname">
+					<input type="text" required placeholder="Subject">
+				</div>
+				<div>
+					<textarea type="text" required placeholder="Message"></textarea>
+				</div>
 				<input type="submit" value="send" class="submit">
 			</form>
 		</div>
